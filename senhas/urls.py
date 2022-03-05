@@ -14,5 +14,4 @@ urlpatterns = [
     path('viagem_altera/<str:id>', views.viagem_altera, name='viagem_altera'),
     #
     path('gera_senha/<str:id>', views.gera_senha, name='gera_senha'),
-
 ]
